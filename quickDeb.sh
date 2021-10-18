@@ -31,7 +31,7 @@ fi
 
 # 安装软件
 $p apt update
-$p apt install git vim zsh python3 python3-pip python-is-python3 gcc make gdb openssh-server openssh-client cmake screen -y
+$p apt install git vim zsh python3 python3-pip python-is-python3 gcc make gdb openssh-server openssh-client cmake screen checkinstall -y
 pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 
 if [ "$flag" == "-A" -o "$flag" == "--install-all" ]; then
